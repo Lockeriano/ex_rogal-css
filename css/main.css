@@ -1,0 +1,94 @@
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif; }
+
+body {
+  margin: 0; }
+
+nav {
+  border-bottom: solid .1rem orange;
+  padding: 1rem 0; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+li {
+  font-size: 2.4rem;
+  color: #30306d;
+  text-align: center;
+  padding-bottom: 1rem; }
+  li a {
+    text-decoration: none; }
+    li a:active, li a:focus, li a:hover, li a:visited {
+      color: inherit; }
+  li span {
+    font-weight: 700; }
+  li img {
+    margin-right: 2rem; }
+
+#adContent {
+  text-align: center; }
+  #adContent li {
+    display: inline-block;
+    margin: 1rem 4rem; }
+
+.mainFormContainer {
+  background-color: #e5ceae; }
+
+form {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; }
+  form ol {
+    list-style: none;
+    padding: 3rem; }
+  form input,
+  form label {
+    display: inline-block;
+    margin: 1rem;
+    font-weight: 300; }
+  form input {
+    width: 70%;
+    border: 1px solid gray;
+    border-bottom: 1px solid black;
+    font-size: 3rem; }
+  form .submitBtn {
+    width: 40%;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    background: #30306d;
+    color: white;
+    border: none;
+    padding: 1rem; }
+  form p {
+    font-size: 1.6rem;
+    font-weight: 300; }
+
+#press,
+#avatars,
+#brands {
+  display: inline-flex;
+  flex-wrap: nowrap; }
+
+.desc-container {
+  display: inline-flex;
+  width: 60rem;
+  justify-content: center;
+  align-items: center; }
+  .desc-container p {
+    font-size: 2rem;
+    color: gray; }
+
+#avatars img {
+  margin: 1rem; }
+
+.brands-container,
+.avatars-container,
+.press-container {
+  border-bottom: 0.1rem solid #e5ceae;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end; }
